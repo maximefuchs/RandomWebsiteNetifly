@@ -185,6 +185,14 @@
     }
 
     /* Floral elements: first half from left side */
+    .floral-border.floral-element0 {
+        bottom: 20px;
+        left: 20px;
+        width: 400px;
+        height: 400px;
+        z-index: 1;
+        background-image: url('../resources/FleursBleues2.png');
+    }
     .floral-border.floral-element1 {
         bottom: -50px;
         left: -50px;
@@ -201,7 +209,14 @@
         z-index: 4;
         background-image: url('../resources/FleurOrange.png');
     }
-    /* missing blé */
+    .floral-border.floral-element3 {
+        bottom: -50px;
+        left: 0px;
+        width: 400px;
+        height: 400px;
+        z-index: 1;
+        background-image: url('../resources/Ble.png');
+    }
     .floral-border.floral-element4 {
         bottom: -50px;
         left: -50px;
@@ -210,7 +225,14 @@
         z-index: 0;
         background-image: url('../resources/Feuillage2.png');
     }
-    /* missing other green feuillage */
+    .floral-border.floral-element5 {
+        bottom: -50px;
+        left: -50px;
+        width: 400px;
+        height: 400px;
+        z-index: 0;
+        background-image: url('../resources/Feuillage4.png');
+    }
     .floral-border.floral-element6 {
         bottom: 0px;
         left: 400px;
@@ -252,14 +274,21 @@
         z-index: 0;
         background-image: url('../resources/Feuillage3.png');
     }
-    /* missing blé */
+    .floral-border.floral-element11 {
+        bottom: -50px;
+        right: 0px;
+        width: 400px;
+        height: 400px;
+        z-index: 1;
+        background-image: url('../resources/Ble.png');
+    }
     .floral-border.floral-element12 {
         bottom: 0px;
         right: 200px;
         width: 300px;
         height: 300px;
         z-index: 3;
-        background-image: url('../resources/FleursBleues2.png');
+        background-image: url('../resources/FleursBleues.png');
     }
     .floral-border.floral-element13 {
         bottom: 0px;
@@ -276,6 +305,14 @@
         height: 300px;
         z-index: 3;
         background-image: url('../resources/FleurBlanche3.png');
+    }
+    .floral-border.floral-element15 {
+        bottom: -20px;
+        right: 100px;
+        width: 300px;
+        height: 300px;
+        z-index: 1;
+        background-image: url('../resources/Feuillage1.png');
     }
 
     /* Sections */
