@@ -71,7 +71,8 @@
 
     /* Hero Section */
     .hero {
-        background: linear-gradient(rgba(244, 232, 208, 0.9), rgba(212, 196, 160, 0.9)), url('../resources/hero-kraft.svg');
+        /* background: linear-gradient(rgba(244, 232, 208, 0.9), rgba(212, 196, 160, 0.9)), url('../resources/hero-kraft.svg'); */
+        background: url('../resources/FondCraft.png');
         background-size: cover;
         background-position: center;
         height: 100vh;
@@ -181,6 +182,100 @@
         width: 250px;
         height: 150px;
         background-image: url('../resources/floral-border-bottom-right.svg');
+    }
+
+    /* Floral elements: first half from left side */
+    .floral-border.floral-element1 {
+        bottom: -50px;
+        left: -50px;
+        width: 300px;
+        height: 300px;
+        z-index: 5;
+        background-image: url('../resources/Marguerite.png');
+    }
+    .floral-border.floral-element2 {
+        bottom: -50px;
+        left: 100px;
+        width: 300px;
+        height: 300px;
+        z-index: 4;
+        background-image: url('../resources/FleurOrange.png');
+    }
+    /* missing blé */
+    .floral-border.floral-element4 {
+        bottom: -50px;
+        left: -50px;
+        width: 400px;
+        height: 400px;
+        z-index: 0;
+        background-image: url('../resources/Feuillage2.png');
+    }
+    /* missing other green feuillage */
+    .floral-border.floral-element6 {
+        bottom: 0px;
+        left: 400px;
+        width: 300px;
+        height: 300px;
+        z-index: 3;
+        background-image: url('../resources/FleursViolettes.png');
+    }
+    .floral-border.floral-element7 {
+        bottom: 0px;
+        left: 200px;
+        width: 300px;
+        height: 300px;
+        z-index: 3;
+        background-image: url('../resources/FleurJaune.png');
+    }
+    /* Floral elements: second half from right side */
+    .floral-border.floral-element8 {
+        bottom: -50px;
+        right: 50px;
+        width: 300px;
+        height: 300px;
+        z-index: 4;
+        background-image: url('../resources/FleurRose.png');
+    }
+    .floral-border.floral-element9 {
+        bottom: 0px;
+        right: -20px;
+        width: 300px;
+        height: 300px;
+        z-index: 3;
+        background-image: url('../resources/FleurBleue.png');
+    }
+    .floral-border.floral-element10 {
+        bottom: -30px;
+        right: -30px;
+        width: 300px;
+        height: 300px;
+        z-index: 0;
+        background-image: url('../resources/Feuillage3.png');
+    }
+    /* missing blé */
+    .floral-border.floral-element12 {
+        bottom: 0px;
+        right: 200px;
+        width: 300px;
+        height: 300px;
+        z-index: 3;
+        background-image: url('../resources/FleursBleues2.png');
+    }
+    .floral-border.floral-element13 {
+        bottom: 0px;
+        right: 250px;
+        width: 300px;
+        height: 300px;
+        z-index: 3;
+        background-image: url('../resources/FleurBlanche2.png');
+    }
+    .floral-border.floral-element14 {
+        bottom: 0px;
+        right: 300px;
+        width: 300px;
+        height: 300px;
+        z-index: 3;
+        background-image: url('../resources/FleurBlanche3.png');
     }
 
     /* Sections */
